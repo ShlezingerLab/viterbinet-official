@@ -62,7 +62,7 @@ To execute the code, first download and install Git, Anaconda and PyCharm.
 
 Then install the environment, follow the installation setup below. 
 
-At last, open PyCharm in the root directory. You may run either the trainers or one of the plotters.
+At last, open PyCharm in the root directory. You need to run the evaluation.py file.
 
 This code was simulated with GeForce RTX 3060 with CUDA 12. 
 
