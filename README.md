@@ -86,9 +86,9 @@ This code was simulated with GeForce RTX 3060 with CUDA 12.
 
 9. In the add python interpreter window, click on the Conda Environment tab
 
-10. Select Existing environment and navigate to where the python.exe executable of the deep_ensemble environment is installed under the interpreter setting
+10. Select Existing environment and navigate to where the python.exe executable of the environment is installed under the interpreter setting
 
-  - For windows its usually found at C:\users\<username>\anaconda3\envs\environment\python.exe)
+  - For windows its usually found at C:\users\<username>\anaconda3\envs\<environment_name>\python.exe)
 
   - For linux its usually found at /home/<username>/anaconda3
   
