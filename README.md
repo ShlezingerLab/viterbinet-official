@@ -74,7 +74,7 @@ This code was simulated with GeForce RTX 3060 with CUDA 12.
 
 3. Open Anaconda prompt and navigate to the cloned repository.
 
-4. Run the command "conda env create -f environment.yml". This should install the required python environment.
+4. Run the command "conda env create -f viterbinet_env.yml". This should install the required python environment.
 
 5. Open the cloned directory using PyCharm.
 
@@ -88,7 +88,7 @@ This code was simulated with GeForce RTX 3060 with CUDA 12.
 
 10. Select Existing environment and navigate to where the python.exe executable of the environment is installed under the interpreter setting
 
-  - For windows its usually found at C:\users\<username>\anaconda3\envs\<environment_name>\python.exe)
+  - For windows its usually found at C:\users\<username>\anaconda3\envs\viterbinet_env\python.exe)
 
   - For linux its usually found at /home/<username>/anaconda3
   
