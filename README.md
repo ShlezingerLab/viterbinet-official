@@ -16,7 +16,7 @@ A minimalistic python implementation of the [well-known ViterbiNet algorithm](ht
   
   # Introduction
 
-Note that this python implementation deviates from the [basic one](https://arxiv.org/pdf/1905.10750.pdf) in the basic DNN implementaion: Here it is only (1) Linear 1X75, (2) ReLU, (3) Linear 75X16, as  opposed to the three layers in the paper. Also, the learning rate is 5e-3 instead of 1e-3. Note that these changes obtain even better results on this setup, than the one reported in the paper. It obviously depends on the complexity of the simulated channel.
+Note that this python implementation deviates from the [basic one](https://arxiv.org/pdf/1905.10750.pdf) in the basic DNN implementaion: Here it is only (1) Linear 1X75, (2) ReLU, (3) Linear 75X16, as  opposed to the three layers in the paper. Also, the learning rate is 5e-3 instead of 1e-2. Note that these changes obtain even better results on this setup, than the one reported in the paper. It obviously depends on the complexity of the simulated channel.
 
 # Folders Structure
 
