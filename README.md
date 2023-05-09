@@ -1,6 +1,6 @@
 # viterbinet-official
 
-A minimalistic python implementation of the ViterbiNet algorithm, published in
+A minimalistic python implementation of the ViterbiNet algorithm, published in:
 
 Shlezinger, N., Farsad, N., Eldar, Y. C., & Goldsmith, A. J. (2020). [ViterbiNet: A deep learning based Viterbi algorithm for symbol detection](https://arxiv.org/pdf/1905.10750.pdf). IEEE Transactions on Wireless Communications, 19(5), 3319-3331.
 
