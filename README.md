@@ -1,6 +1,10 @@
 # viterbinet-official
 
-A minimalistic python implementation of the [well-known ViterbiNet algorithm](https://arxiv.org/pdf/1905.10750.pdf). ViterbiNet is a deep learning architecture for symbol detection that integrating deep neural networks into the Viterbi algorithm. The paper shows that ViterbiNet is able to track time-varying channels in a data-driven manner, in the case of complex channel models or no channel state information at all.
+A minimalistic python implementation of the ViterbiNet algorithm, published in
+
+Shlezinger, N., Farsad, N., Eldar, Y. C., & Goldsmith, A. J. (2020). [ViterbiNet: A deep learning based Viterbi algorithm for symbol detection](https://arxiv.org/pdf/1905.10750.pdf). IEEE Transactions on Wireless Communications, 19(5), 3319-3331.
+
+ViterbiNet is a deep learning architecture for symbol detection that integrating deep neural networks into the Viterbi algorithm. The paper shows that ViterbiNet is able to track time-varying channels in a data-driven manner, in the case of complex channel models or no channel state information at all.
 
 # Table of Contents
 
