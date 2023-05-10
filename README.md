@@ -22,6 +22,8 @@ ViterbiNet is a deep learning architecture for symbol detection that integrating
 
 Note that this python implementation deviates from the [basic one](https://arxiv.org/pdf/1905.10750.pdf) in the basic DNN implementaion: Here it is only (1) Linear 1X75, (2) ReLU, (3) Linear 75X16, as  opposed to the three layers in the paper. Also, the learning rate is 5e-3 instead of 1e-2. Note that these changes obtain even better results on this setup, than the ones reported in the paper. These hyperparameters should be chosen to fit the complexity of the simulated channel.
 
+Also, note that the simulated setup here is a sequential transmission of pilots + info in each block coherence, which is different than the one in the original paper (that has only unlabeled info bits and uses error correction codes to correct errors and train on the decoded packet). It is more convenient in our opinion for learning purposes. 
+
 # Folders Structure
 
 ## python_code 
